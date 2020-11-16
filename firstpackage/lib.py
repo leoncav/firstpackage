@@ -10,6 +10,11 @@ import datetime
 pd.set_option('display.width', 200)
 
 
+def try_me():
+    today = datetime.date.today()
+    print(f"Today is {today}")
+
+
 def clean_data(data):
     """ clean data
     """
