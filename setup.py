@@ -12,5 +12,5 @@ setup(name='firstpackage',
       test_suite = 'tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/firstpackage-run'],
+      scripts=['scripts/firstpackage-run', 'scripts/pippo-run'],
       zip_safe=False)
