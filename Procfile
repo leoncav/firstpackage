@@ -1,1 +1,1 @@
-web: pip install . -U && firstpackage-run
+web: pip install . -U && pippo-run
